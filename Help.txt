@@ -1,0 +1,2 @@
+You can set a local branch to follow (get data from) the remote branch by following command:
+git branch --set-upstream-to origin/feature_1
