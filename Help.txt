@@ -1,2 +1,9 @@
 You can set a local branch to follow (get data from) the remote branch by following command:
 git branch --set-upstream-to origin/feature_1
+
+In order to push the changes you need to use below command
+git push -u origin feature_1_local:feature_1
+git push -u origin <local_branch>:<remote_branch>
+
+In my case I had local branch feature_1_local
+and remote branch called feature_1 
